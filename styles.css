@@ -78,7 +78,7 @@ header h1 {
 }
 
 @keyframes ballMove {
-    0% { left: calc(20px + 200px); }
+    0% { left: 220px; }
     100% { left: calc(100% - 50px); }
 }
 
