@@ -116,7 +116,7 @@ header h1 {
 }
 
 @keyframes triangleMove {
-    0% { right: calc(70px + 200px); }
+    0% { right: 270px; }
     100% { right: calc(100% - 50px); }
 }
 
