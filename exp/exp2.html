@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Experimentation</title>
+</head>
+<body>
+    <h1>Experiment 1</h1>
+        <h2>Open the concole from Google Chrome and right click use inspect to see the functionality of the code.</h2>
 
+        <script>
+           var Rows = 15;
+        for (var i = 1; i <= Rows; i++) {
+            var line = "";
+            for (var j = 1; j <= i; j++) {
+                line += "#";
+            }
+            if (i === Rows) {
+                console.log(line + " <-- lastline");
+            } else {
+                console.log(line);
+            }}
+
+        </script>
+</body>
+</html>
