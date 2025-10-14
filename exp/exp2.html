@@ -6,7 +6,7 @@
     <title>JS Experimentation</title>
 </head>
 <body>
-    <h1>Experiment 1</h1>
+    <h1>Experiment 2</h1>
         <h2>Open the concole from Google Chrome and right click use inspect to see the functionality of the code.</h2>
 
         <script>
@@ -22,6 +22,26 @@
                 console.log(line);
             }}
 
+            
+        //user chose a color, and computer random a color, if match then change to this color, if not then retry.//
+            var colors = ["red", "green", "blue", "yellow"];
+            
+            function choose() {
+                var randomNumber = Math.floor(Math.random() * colors.length);
+                return colors[randomNumber];
+            }
+        
+            var computerColor = choose();
+            var userGuess = prompt("Guess which color I'm thinking of: red, green, blue, or yellow.");
+        
+            function checkAnswer(guess, answer) {
+                if (guess === answer) {
+                    return answer;      
+                } else {
+                    return "lightgray"; 
+                }
+            }
+            document.body.style.backgroundColor = checkAnswer(userGuess, computerColor);
         </script>
 </body>
 </html>
