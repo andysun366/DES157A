@@ -14,47 +14,50 @@
   <div id="container">
     <div class="outer-body"></div>
 
-    <header class="inner-border">
-        <div class="left">
-            <h1>Daily Fantasy</h1>
-            <div class="image">
-              <p>Please enter</p>
-              <img src="images/FW.png" alt="Fantasy illustration" width="120" height="120">
+    <!-- 新增 flex 容器包裹左右 -->
+    <div class="inner-border">
+      <div class="left">
+        <header>
+          <h1>Daily Fantasy</h1>
+          <div class="image">
+            <p>Please enter</p>
+            <img src="images/FW.png" alt="Fantasy illustration" width="120" height="120">
+          </div>
+        </header>
+      </div>
+
+      <main class="right">
+        <form>
+          <div class="columns">
+            <div class="column">
+              <label for="noun1">Noun</label><input type="text" id="noun1" class="input" required>
+              <label for="color1">Color</label><input type="text" id="color1" class="input" required>
+              <label for="verb1">Verb-ing</label><input type="text" id="verb1" class="input" required>
+              <label for="adjective1">Adjective</label><input type="text" id="adjective1" class="input" required>
+              <label for="noun2">Noun</label><input type="text" id="noun2" class="input" required>
+              <label for="noun3">Noun</label><input type="text" id="noun3" class="input" required>
+              <label for="adjective2">Adjective</label><input type="text" id="adjective2" class="input" required>
+              <label for="noun4">Noun</label><input type="text" id="noun4" class="input" required>
+              <label for="verb2">Verb-ing</label><input type="text" id="verb2" class="input" required>
             </div>
-        </div>
-    </header>
 
-    <main class="right">
-      <form>
-        <div class="columns">
-          <div class="column">
-            <label for="noun1">Noun</label><input type="text" id="noun1" class="input" required>
-            <label for="color1">Color</label><input type="text" id="color1" class="input" required>
-            <label for="verb1">Verb-ing</label><input type="text" id="verb1" class="input" required>
-            <label for="adjective1">Adjective</label><input type="text" id="adjective1" class="input" required>
-            <label for="noun2">Noun</label><input type="text" id="noun2" class="input" required>
-            <label for="noun3">Noun</label><input type="text" id="noun3" class="input" required>
-            <label for="adjective2">Adjective</label><input type="text" id="adjective2" class="input" required>
-            <label for="noun4">Noun</label><input type="text" id="noun4" class="input" required>
-            <label for="verb2">Verb-ing</label><input type="text" id="verb2" class="input" required>
+            <div class="column">
+              <label for="creature1">Creature</label><input type="text" id="creature1" class="input" required>
+              <label for="name1">Name</label><input type="text" id="name1" class="input" required>
+              <label for="verb3">Verb, past tense</label><input type="text" id="verb3" class="input" required>
+              <label for="number1">Number</label><input type="text" id="number1" class="input" required>
+              <label for="verb4">Verb, past tense</label><input type="text" id="verb4" class="input" required>
+              <label for="verb5">Verb, past tense</label><input type="text" id="verb5" class="input" required>
+              <label for="verb6">Verb, past tense</label><input type="text" id="verb6" class="input" required>
+              <label for="adjective3">Adjective</label><input type="text" id="adjective3" class="input" required>
+              <label for="noun5">Noun</label><input type="text" id="noun5" class="input" required>
+            </div>
           </div>
 
-          <div class="column">
-            <label for="creature1">Creature</label><input type="text" id="creature1" class="input" required>
-            <label for="name1">Name</label><input type="text" id="name1" class="input" required>
-            <label for="verb3">Verb, past tense</label><input type="text" id="verb3" class="input" required>
-            <label for="number1">Number</label><input type="text" id="number1" class="input" required>
-            <label for="verb4">Verb, past tense</label><input type="text" id="verb4" class="input" required>
-            <label for="verb5">Verb, past tense</label><input type="text" id="verb5" class="input" required>
-            <label for="verb6">Verb, past tense</label><input type="text" id="verb6" class="input" required>
-            <label for="adjective3">Adjective</label><input type="text" id="adjective3" class="input" required>
-            <label for="noun5">Noun</label><input type="text" id="noun5" class="input" required>
-          </div>
-        </div>
-
-        <input type="submit" value="Submit" class="submit-btn">
-      </form>
-    </main>
+          <input type="submit" value="Submit" class="submit-btn">
+        </form>
+      </main>
+    </div>
 
     <div class="base"></div>
     <div class="left-column">
@@ -74,6 +77,7 @@
   </div>
 </body>
 </html>
+
 
 
 

@@ -35,10 +35,10 @@ html, body {
     background-color: #FFEDED; 
     display: flex;
     justify-content: space-between;
-    box-sizing: content-box;
     width: 731px;
     height: 442px;
     border: 32px solid #CCCCCC;
+    box-sizing: content-box;
 }
 
 .left {
@@ -50,7 +50,7 @@ html, body {
     width: 300px;
 }
 
-.left .image {
+.left header .image {
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -68,6 +68,8 @@ html, body {
 }
 
 .right {
+    display: flex;
+    flex-direction: column;
     width: 400px;
 }
 
@@ -176,4 +178,5 @@ input[type="text"]:focus {
     height: 66px;
     background-color: gold;
 }
+
 
