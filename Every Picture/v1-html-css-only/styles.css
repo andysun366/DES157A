@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Inria Sans', sans-serif;
+    height: 900px;
+    overflow: hidden;
+}
+
+
+.sky {
+    background-color: #9BE6FF;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sky h1 {
+    font-size: 48px;
+    color: #003F7F;
+    margin: 0;
+}
+
+
+.imagespace {
+    background-color: #9BE6FF;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chest {
+    height: 260px;
+    width: auto;
+    display: block;
+}
+
+.ground {
+    background-color: #c49a6c;
+    height: 400px;
+}
