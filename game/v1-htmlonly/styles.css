@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: white;
+    font-family: "Freckle Face", system-ui;
+    text-align: center;
+  }
+  
+  .header {
+    background: #baf2ff;
+    padding: 40px 0;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: flex-start;
+  }
+  
+  .player {
+    width: 35%;
+    font-size: 42px;
+  }
+  
+  .points {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  .points span {
+    font-size: 55px;
+    font-weight: bold;
+  }
+  
+  .red { color: #dd2e1f; }
+  .green { color: #63d03b; }
+  
+  .dice-area {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .dice-overall {
+    width: 320px;
+    height: 200px;
+    background: #c2f3ff;
+    border-radius: 50%;
+    border: 2px solid #6a73ff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .dice-box {
+    width: 70px;
+    height: 70px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 45px;
+  }
+  
+  .middle-text {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .round-title {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  
+  .current-player {
+    font-size: 36px;
+    color: #d63b24;
+  }
+  
+  .bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  .btn {
+    background: #baf2ff;
+    padding: 18px 70px;
+    border-radius: 12px;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.2);
+    font-family: "Freckle Face", system-ui;
+  }
+  
+  .explaination {
+    font-size: 18px;
+    width: 40%;
+    line-height: 1.3em;
+  }
+  
+  .explaination span {
+    color: #d33a2c;
+    font-size: 20px;
+  }
+  
