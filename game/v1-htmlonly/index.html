@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dice Game UI</title>
+  <title>Game</title>
   <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -14,7 +14,7 @@
   <div class="container">
     <div class="player">
       Player one
-      <div class="points">Points: <span class="red">20</span></div>
+      <div class="points">Points: <div class="red">20</div></div>
     </div>
 
     <div class="dice-area">
@@ -29,17 +29,20 @@
 
     <div class="player">
       Player two
-      <div class="points">Points: <span class="green">15</span></div>
+      <div class="points">Points: <div class="green">15</div></div>
     </div>
   </div>
 
   <div class="bottom">
     <button class="btn">Roll</button>
+
     <div class="explaination">
-      Your opponent have points of <span>20</span>, 9 points towards win
+      Your opponent have points of <div class="opp-points">20</div>, 9 points towards win
     </div>
+
     <button class="btn">Check</button>
   </div>
 
 </body>
 </html>
+

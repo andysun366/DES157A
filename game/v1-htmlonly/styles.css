@@ -31,9 +31,10 @@ body {
     font-size: 30px;
   }
   
-  .points span {
+  .points div {
     font-size: 55px;
     font-weight: bold;
+    display: inline-block;
   }
   
   .red { color: #dd2e1f; }
@@ -109,8 +110,9 @@ body {
     line-height: 1.3em;
   }
   
-  .explaination span {
+  .explaination div {
     color: #d33a2c;
     font-size: 20px;
+    display: inline-block;
   }
   
