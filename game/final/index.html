@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="header">Game On!</div>
+
+  <div class="container">
+    <div class="player">
+      Player one
+      <div class="points">Points: <div class="red">20</div></div>
+    </div>
+
+    <div class="dice-area">
+      <div class="dice-overall">
+        <img class="dice-box" id="d1" src="images/dice-1.png">
+        <img class="dice-box" id="d2" src="images/dice-1.png">
+      </div>
+      <div class="middle-text"></div>
+      <div class="round-title">Round</div>
+      <div class="current-player">Player two</div>
+    </div>
+
+    <div class="player">
+      Player two
+      <div class="points">Points: <div class="green">0</div></div>
+    </div>
+  </div>
+
+  <div class="bottom">
+
+    <button class="btn" id="roll-btn">Roll</button>
+
+    <div class="explaination" id="explain-box">
+      <button class="btn" id="check-btn">Check</button>
+    </div>
+
+    <button class="btn" id="next-btn">Next</button>
+
+    <button class="btn" id="restart-btn" style="display:none;">Restart</button>
+
+  </div>
+</body>
+</html>
+
